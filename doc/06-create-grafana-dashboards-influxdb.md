@@ -75,7 +75,7 @@ Adding thresholds will change the Y-axis range, so you will not see as much deta
  2. Change `field(value)` to `field(crit)` on query **B**.
  3. Remove `mean()` and add `last()` instead on query **B**.
  4. Remove `tag(metric) on query **B**.
- 5. Change `fill(none)` to `fill(last)` on query **B**.
+ 5. Change `fill(none)` to `fill(previous)` on query **B**.
  6. Change **ALIAS BY** to `critical` on query **B**.
  7. For **warning** duplicate tge **B** query to **C**.
  8. Change `field(crit)` to `field(warn)` on query **C**.
